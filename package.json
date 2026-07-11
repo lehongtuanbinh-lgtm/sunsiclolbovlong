@@ -1,0 +1,18 @@
+{
+  "name": "hoang-pattern-analyzer",
+  "version": "1.0.0",
+  "description": "Hệ thống API phân tích thuật toán và dự đoán by Hoàng (@hoangvip247)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "author": "Hoàng",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "^9.0.1",
+    "fastify": "^4.26.2",
+    "node-fetch": "^3.3.2"
+  }
+}
